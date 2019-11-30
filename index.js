@@ -16,5 +16,18 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift()
 }
 
+function appendKitten(name) {
+  return [...kittens, name]
+}
 
-// Add your functions and code here
+function prependKitten(name) {
+  return [name, ...kittens]
+}
+
+function removeLastKitten () {
+  return 
+}
+
+function removeFirstKitten () {
+  return
+}
